@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#screen__pin{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    width: 1000px;
+}
+
+#screen__landing{
+    border: 1px solid black;
+    height: 500px;
+    width: 1000px;
+    background-color: royalblue;
+}
+
+.greeting{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.time{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    color: white;
+    font-size: larger;
+    text-align: right;
+    margin-top: 8px;
+    margin-left: 40%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#pin{
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#bank_name{
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 900px;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.shown_balance{
+    background-color: gold ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+}
+
+.shown_balance div{
+    margin-left: 25%;
+    margin-top: 35%;
+}
+
+.shown_balance p{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 21%;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+.trans{
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+
+.deposit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    margin-top: 10px;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+.withdraw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem; 
+}
+
+
+.display_screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 12%;
+    background-color: rgb(243, 243, 243);
+}
+
+.pin_holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hide_pin{
+    font-size: 2rem;
+}
+
+.keypad{
+    /* border: 1px solid black; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 250px;
+    position: relative;
+    margin-left: 12%;
+    margin-top: 3%;
+
+}
+
+.key{
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    font-family: monospace;
+    background-color: rgb(211, 209, 209);
+    position: relative;
+}
+
+#cancel, #clear, #accept{
+    width: 100px;
+    background-color: rgb(211, 209, 209);
+}
+
+.red{
+    background-color: red;
+    height: 5px;
+    width: 80%;
+    margin-left: 10px;
+    
+}
+
+.yellow{
+    background-color: yellow;
+    height: 5px;
+    width: 80%;
+    margin-left: 10px;
+    
+}
+
+.green{
+    background-color: green;
+    height: 5px;
+    width: 80%;
+    margin-left: 10px;
+    
+}

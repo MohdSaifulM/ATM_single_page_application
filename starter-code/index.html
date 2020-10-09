@@ -1,21 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATM Interface</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <!-- Home screen, this screen is for insert card -->
 
     <div id="screen__pin">
+        <div id="pin">
+            <div class="display_screen">
+                <div class="pin_holder">
+
+                </div>
+            </div>
+            <div class="keypad">
+                <div class="key" id="1">1</div>
+                <div class="key" id="2">2</div>
+                <div class="key" id="3">3</div>
+                <div class="key" id="cancel">
+                    <div class="red"></div>
+                </div>
+                <div class="key" id="4">4</div>
+                <div class="key" id="5">5</div>
+                <div class="key" id="6">6</div>
+                <div class="key" id="clear">
+                    <div class="yellow"></div>
+                </div>
+                <div class="key" id="7">7</div>
+                <div class="key" id="8">8</div>
+                <div class="key" id="9">9</div>
+                <div class="key" id="accept">
+                    <div class="green"></div>
+                </div>
+                <div class="key" id="blank"></div>
+                <div class="key" id="0">0</div>
+                <div class="key" id="blank"></div>
+
+            </div>
+        </div>
+        <div id="bank_name">
+
+        </div>
 
     </div>
-    
+
     <div id="screen__landing">
-
+        <div class="greeting"></div>
+        <div class="time"></div>
+        <div class="container">
+            <div class="shown_balance">
+                <p>SGD</p>
+            </div>
+            <div class="balance">
+                <h1>Balance</h1>
+            </div>
+            <div class="trans">
+                <div class="withdraw">Withdraw</div>
+                <div class="deposit">Deposit</div>
+            </div>
+        </div>
     </div>
-    
+
     <div id="screen__withdrawal">
 
     </div>
@@ -27,6 +77,7 @@
 
     </div>
 
-    
+    <script src="js/main.js"></script>
 </body>
+
 </html>
